@@ -1,0 +1,134 @@
+body{
+	margin:1% 1.5% 1% 1.5%;
+}
+h1{
+	font-variant: small-caps;
+	text-align: center;
+	color: #ffffff;
+	font-family: times;
+	font-size: 200%;
+
+}
+header{
+	background-image: url('../images/flywheel.jpg');
+	background-color: #333333;
+	background-size: 100%;
+	padding-bottom: : 1.5%;
+	padding-top: 1%;
+
+
+}
+nav{
+	text-align: center;
+}
+nav a{
+	color: #000000;
+	background-color: rgba(255,255,255,0.2);
+	padding: 1% 6%;
+	margin: 1%;
+	border: #000000;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+nav a.active,nav a:hover{
+	color: #000000;
+	background: #ffffff;
+	padding: 1% 6%;
+	margin: 1%;
+}
+nav a.active{
+	border-color: #000000;
+	border-style: solid;
+    border-radius: 5px;
+}
+aside>a>img{
+	width: 90%;
+	height: 20%;
+	display: block;
+	margin: 30px auto;
+	border-style:solid;
+	border-color: #000000;
+}
+.left{
+	background: #00ffff;
+	float: left;
+	display: inline-block;
+	width:15%;
+	height: 100%;
+    overflow: auto;
+}
+
+.right{
+	
+	display: inline-block;
+	width: 80%;
+	padding-left: 0.5%;
+}
+section{
+	background-color: #ffffff;
+	/*border-color: #000000;
+	border-style: double;
+	border-width: 3px;
+	margin: 0 auto 0 10px;
+	width:70% ;
+	padding: 10px;
+	padding-color: blue;*/
+}
+table{
+	font-family: Helvetica,verdana,arial,"sans-serif";
+	font-size: 90%;
+	color: #1c1c1c;
+	margin: 0 auto;
+	border-spacing: 3px;
+	width: 75%;
+}
+table tr th,table tr td{
+	height: 30px;
+	padding: 10px;
+}
+table tr{
+	background-color: rgba(60, 232, 64,0.5);
+	text-align: center;
+	opacity: 0.8;
+}
+table tr:first-child {
+	opacity: 1;
+}
+table tr:hover{
+	background-color: rgba(60, 232, 64,0.5);
+	opacity: 1;
+}
+table tr:first-child{
+	text-align: center;
+	-webkit-background-image: linear-gradient(to bottom, #007a47 , #009947, #007a47);
+	-ms-background-image: linear-gradient(to bottom, #007a47 , #009947, #007a47);
+	-moz-background-image: linear-gradient(to bottom, #007a47 , #009947, #007a47);
+	-o-background-image: linear-gradient(to bottom, #007a47 , #009947, #007a47);
+	background-image: linear-gradient(to bottom, #007a47 , #009947, #007a47);
+	background-color: rgba(0,255,0,0.1);
+	color: #ffffff;
+}
+table tr th{
+	border-width: 1px 1px 2px 1px;
+	border-style: solid;
+	border-color: #ffa500;
+	border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px; 
+    -ms-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px; 
+    -o-border-radius: 5px 5px 0px 0px; 
+
+
+}
+table tr td:first-child ,table tr th:first-child {
+	text-align: left;
+}
+
+h2{
+	font-family: "times";
+	color: #000000;
+}
+p{
+	text-align: left;
+}
